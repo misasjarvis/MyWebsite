@@ -1,26 +1,76 @@
-body {
-  background-color: #EAF6F6;
+body{
+  background-color: grey;
+}
 
+.Home{
+  background-image: url('../Images/sky.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+span{
+  font-family: 'Tangerine', cursive;
+  font-size: 60px;
 }
 
 hr {
-  background-color: #EAF6F6;
+  background-color: black;
   border-style: none;
   border-top-style: dotted;
-  border-color: grey;
-  border-width: 4px;
-  width: 5%;
+  border-color: white;
+  border-width: 6px;
+  width: 80px;
 }
 
-h1{
-  color: #646e7d;
+h1 {
+  color: black;
 }
 
-h2{
-  color: #646e7d;
+h2 {
+  color: black;
 }
 
-.Links:hover{
-  color:red;
+em {
+  color: white;
+}
+
+strong{
+  text-decoration: underline;
+  color: white;
+}
+
+.Links:hover {
   font-size: 17px;
+}
+
+.Center {
+  padding: 30px;
+  border-radius: 80px;
+  margin: 4% 35% 5% 35%;
+  background-color: black;
+  opacity: 80%;
+}
+
+.cloud {
+  display: inline-block;
+  position: absolute;
+  right: 480px;
+  top: 80px;
+}
+
+.cloud1 {
+  display: inline-block;
+  position: absolute;
+  left: 500px;
+  bottom: 450px;
+}
+
+.cloud1:hover {
+  height: 150px;
+  width: 150px;
+}
+
+.cloud:hover {
+  height: 150px;
+  width: 150px;
 }
