@@ -1,5 +1,5 @@
 body{
-  background-color: grey;
+  background-color: #EAF6F6;
 }
 
 .Home{
@@ -23,11 +23,11 @@ hr {
 }
 
 h1 {
-  color: black;
+  color: grey;
 }
 
 h2 {
-  color: black;
+  color: grey;
 }
 
 em {
