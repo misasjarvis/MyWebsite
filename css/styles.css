@@ -1,76 +1,62 @@
-body{
-  background-color: #EAF6F6;
+body {
+  background-color: #f9f9f9;
 }
 
-.Home{
-  background-image: url('../Images/sky.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-span{
-  font-family: 'Tangerine', cursive;
-  font-size: 60px;
-}
-
-hr {
+#nav-bar {
+  text-align: center;
   background-color: black;
-  border-style: none;
-  border-top-style: dotted;
-  border-color: white;
-  border-width: 6px;
-  width: 80px;
-}
-
-h1 {
-  color: grey;
-}
-
-h2 {
-  color: grey;
-}
-
-em {
+  padding: 30px;
   color: white;
 }
 
-strong{
-  text-decoration: underline;
-  color: white;
+.Links {
+  border-color: black;
+  border: solid;
+  background-color: white;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  font-weight: 900;
+  margin-left: 12px;
 }
 
 .Links:hover {
-  font-size: 17px;
-}
-
-.Center {
-  padding: 30px;
-  border-radius: 80px;
-  margin: 4% 35% 5% 35%;
   background-color: black;
-  opacity: 80%;
+  color: white;
+  border-color: white;
 }
 
-.cloud {
-  display: inline-block;
+.ImgHome {
   position: absolute;
-  right: 480px;
-  top: 80px;
+  left: 400px;
+  top: 200px;
 }
 
-.cloud1 {
+.ProfilePic {
+  border: none;
+  float: left;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.MainTitle {
+  margin: 200px auto 50px 100px;
+  font-family: 'Parisienne', cursive;
+  font-size: 50px;
   display: inline-block;
-  position: absolute;
-  left: 500px;
-  bottom: 450px;
 }
 
-.cloud1:hover {
-  height: 150px;
-  width: 150px;
+.Subheading {
+  font-family: 'B612 Mono', monospace;
+  font-size: 20px;
+  margin: 0 0 350px 200px;
+  display: inline-block;
 }
 
-.cloud:hover {
-  height: 150px;
-  width: 150px;
+.MyDescription {
+  margin: auto;
+  width: 60%;
+  font-family: 'B612 Mono', monospace;
+  font-size: 15px;
 }
